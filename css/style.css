@@ -1,0 +1,116 @@
+/*conventions*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&subset=cyrillic');
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    margin: 76 auto 96 auto;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    }
+
+.nav {
+    margin-top: 76px;
+    }
+.nav-menu {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 900px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    
+}
+
+.nav-menu li:not(:last-child) {
+    margin-right: 100px;
+}
+.nav-menu a {
+    color: gray;
+    text-decoration: none;
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+    color: rgb(59, 201, 248);
+}
+
+/*main*/
+
+.cards {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    
+}
+.card {
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 130px;
+    
+}
+.card:nth-child(2n) {
+    margin-right: 0;
+}
+.card p {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: normal;
+
+}
+.card h3 {
+    color: #b4ad9e;
+ font-family:" Ubuntu";
+ font-size: 14px;
+ font-weight: normal;
+ text-transform: uppercase;
+margin-top: 26px;
+}
+.card h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.load-more {
+    border: 1px solid #666666;
+    margin: 60px auto 60px auto;
+    padding: 0;
+    min-width: 162px;
+    height: 60px;
+    display: block;
+    background-color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Playfair Display";
+    cursor: pointer;
+    text-align: center;
+    
+  
+  
+  
+  
+}
