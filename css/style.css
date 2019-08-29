@@ -11,33 +11,36 @@ html {
 *::after {
     box-sizing: inherit;
 }
+/* body {
+    background-color: #333;
+} */
 
 .header {
     margin: 76 auto 96 auto;
 }
 .container {
+    padding-top: 76px;
     width: 900px;
     margin: 0 auto;
     background-color: #ffffff;
     }
 
 .nav {
-    margin-top: 76px;
+    /* margin-top: 76px; */
     }
 .nav-menu {
-    margin: 0 auto;
-    padding: 0;
-    font-size: 14px;
-    text-transform: uppercase;
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-    vertical-align: middle;
-    width: 900px;
+margin: 0;
+padding: 0;
+font-size: 14px;
+text-transform: uppercase;
+list-style: none;
+text-align: center;
 }
 
 .nav-menu li {
     display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
     
 }
 
